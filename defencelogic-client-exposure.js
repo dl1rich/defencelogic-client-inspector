@@ -6,11 +6,6 @@
 // Read-only client-side analysis
 // Version: 1.0
 
-if (window.__DEFENCELOGIC_INSPECTOR_LOADED__) {
-    console.warn("DefenceLogic Inspector already loaded");
-    return;
-  }
-  window.__DEFENCELOGIC_INSPECTOR_LOADED__ = true;
   /**********************************************************
    * SAFE RENDERING (CSP / Trusted Types safe)
    **********************************************************/
