@@ -1,3 +1,7 @@
+
+
+(() => {
+
 // DefenceLogic Client Exposure Inspector
 // Read-only client-side analysis
 // Version: 1.0
@@ -7,8 +11,6 @@ if (window.__DEFENCELOGIC_INSPECTOR_LOADED__) {
   return;
 }
 window.__DEFENCELOGIC_INSPECTOR_LOADED__ = true;
-
-(() => {
   /**********************************************************
    * SAFE RENDERING (CSP / Trusted Types safe)
    **********************************************************/
