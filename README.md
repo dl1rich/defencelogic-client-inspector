@@ -66,7 +66,7 @@ These are **signals**, not proof of vulnerability.
 Paste this into the browser console on the target site:
 
 ```js
-fetch("https://<username>.github.io/defencelogic-client-inspector/defencelogic-client-exposure.js")
+fetch("https://github.com/dl1rich/defencelogic-client-inspector/blob/main/defencelogic-client-exposure.js")
   .then(r => r.text())
   .then(code => (0,eval)(code));
 ```
@@ -84,7 +84,7 @@ Why this works:
 Create a bookmark and set the URL to:
 
 ```js
-javascript:(()=>{fetch("https://<username>.github.io/defencelogic-client-inspector/defencelogic-client-exposure.js").then(r=>r.text()).then(code=>(0,eval)(code))})()
+javascript:(()=>{fetch("https://github.com/dl1rich/defencelogic-client-inspector/blob/main/defencelogic-client-exposure.js").then(r=>r.text()).then(code=>(0,eval)(code))})()
 ```
 
 Note:
