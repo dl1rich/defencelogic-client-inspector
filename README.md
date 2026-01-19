@@ -92,6 +92,8 @@ Note:
 * Bookmarklets may be blocked on some sites
 * DevTools loader is always preferred
 
+If all else fails copy the javscript code into the dev tools (enter "allow pasting" first)
+
 ---
 
 ## Output
